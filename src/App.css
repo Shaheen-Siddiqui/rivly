@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;700;900&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap');
+
+
+
+
+*{margin: 0;
+    box-sizing: border-box;
+
+  }
+
+
+  :root {
+    --primary-color: #634ef7;
+    --secondary-color: #F6E5FF;
+    --black: #000000;
+    --yellow: #FEEB9D;
+    --blue: #2A61DB;
+    --light-blue: #D9E4FC;
+    --orange: #F99D49;
+    --rose: #FDCAE4;
+
+    --text1: #959595;
+    --text2: #979797;
+
+    --ground1: #e5e5e5;
+    --ground2: #dfdfe1;
+    --ground3: #dcdcdc;
+    --ground4: #d7d7d7;
+    --ground5: #3b3b3b;
+
+    --gradent:linear-gradient(90deg, #36d1dc 0%, #5b86e5 100%);
+
+    --skyui:#8685e1;
+    --blueui:#315dc6;
+    --yellowui:#e3d491;
+    --light--blue:#c5cee3;
+    --orangeui:#e0924a;
+    --roseui:#e3b7ce;
+
+    --systemic1:#e44d4c;
+    --systemic2:#ccdbbe;
+    
+
+
+  }
+
+  body {
+    font-family: 'Red Hat Display', sans-serif;
+
+  }
+  /* Default font size for desktop */
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+button{
+  cursor: pointer;
+}
+.button {
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  justify-content: center;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  font-weight: lighter;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.button:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+
+/* Font size for tablets (e.g., iPad) */
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 50%; /* 1rem = 8px */
+  }
+}
+
+/* Font size for mobile devices */
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 40%; /* 1rem = 6.4px */
+  }
+}

@@ -1,0 +1,165 @@
+.explore-main-case {
+    display: flex;
+    gap: 1rem;
+    margin-top: 5rem;
+    padding: 2rem 4rem;
+}
+
+.exp-sec-first>h1:first-child {
+    font-weight: bolder;
+    font-size: 6rem;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+
+.same-sections {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+
+
+    & span {
+        position: absolute;
+        left: 0;
+        font-size: small;
+        padding-left: 3rem;
+
+    }
+}
+
+.default-none {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.prod-img-size {
+    width: 100%;
+    border-radius: 1.5rem;
+    height: 40%;
+    box-shadow: 5px 5px 10px #b2b1b1;
+}
+
+.img-size {
+    width: 100%;
+    height: 100%;
+
+}
+
+.up-arrow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 2rem;
+    margin: 1.5rem;
+}
+
+
+.exp-sec-first>div:nth-child(4) {
+    display: flex;
+    gap: 4px;
+
+}
+
+.exp-sec-second>div:nth-child(2) {
+    display: flex;
+    gap: 4px;
+}
+
+.shop-categories {
+    flex: 1;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 5px 5px 10px #b2b1b1;
+    border-radius: 2rem;
+
+    & span>button {
+        background-color: var(--text1);
+        border: none;
+        outline: none;
+        border-radius: 2rem;
+        padding: 1rem;
+        margin: 0.3rem;
+
+    }
+}
+
+#shop-category-id {
+    height: 42rem;
+}
+
+#btn-size {
+    min-height: 30px;
+}
+
+.bottom-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    position: relative;
+
+    & h3 {
+        font-size: 1.7rem;
+    }
+
+    & strong {
+        font-size: 1.7rem;
+    }
+}
+
+/* ****exp-sec-second**** */
+.exp-sec-second>div:first-child {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+    & p {
+        font-size: small;
+        font-weight: bold;
+    }
+}
+.exp-sec-first{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 1.5rem;
+}
+
+@media screen and (min-width:768px) {
+    .exp-sec-first>h1:first-child {
+        margin-bottom: 1rem;
+    }
+
+    .prod-img-size {
+        width: 70%;
+    }
+
+    .exp-sec-first>div:nth-child(4) {
+        width: 80%;
+        height: 20rem;
+        width: 90%;
+    }
+
+    .same-sections {
+        width: 65rem;
+        & img {
+            width: 100%;
+            height: 20rem;
+        }
+    }
+    .img-size {
+        height: 100%;
+    }
+#shop-category-id {
+    height: 39rem;
+}
+
+}
