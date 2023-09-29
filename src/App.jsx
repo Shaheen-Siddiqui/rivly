@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Suspense, lazy } from "react";
-import './app.css'
+import './App.css'
 import Cart from "./frontend/pages/cart/Cart";
 
 //Internal Imports.

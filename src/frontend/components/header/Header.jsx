@@ -79,7 +79,7 @@ const Header = () => {
         </div>
       </div>
 
-      {/* <div>
+      <div>
         <ul>
           <li>Populer Products</li>
           <li>Favorite Brands</li>
@@ -88,7 +88,7 @@ const Header = () => {
           <li>Highest Rewards</li>
           <li>Recently Viewe</li>
         </ul>
-      </div> */}
+      </div>
     </nav>
   );
 };
