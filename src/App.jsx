@@ -14,8 +14,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/cart" element={<Cart />} />
-
-
           </Routes>
       </Suspense>
   );
